@@ -1,0 +1,206 @@
+
+/*Body*/
+body {
+	color: #f6d271;
+	font-family: serif;
+	background-color: black;
+}
+
+/*NavBar*/
+
+.navbar ul li .btn {
+	color: #f6d271;
+}
+
+.navbar ul li .btn:hover {
+	background-color: #f6d271;
+	color: #212529;
+}
+
+
+/*Jumbotron*/
+.jumbotron {
+	margin-top: 96px;
+	background-image: url(mainbg.jpg);
+	height: 650px;
+	background-size: cover;
+	background-position: 0 -80px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 200px 50px 0 50px;
+}
+
+.jumbotron h1 {
+	opacity: 0;
+	transform: translateY(50px);
+	animation: fade-in-bottom 1s ease-out 1s forwards;
+}
+
+.jumbotron p {
+	opacity: 0;
+	transform: translateY(50px);
+	animation: fade-in-bottom 1s ease-out 1.5s forwards;
+}
+
+@keyframes fade-in-bottom {
+	0% {
+	  opacity: 0;
+	  transform: translateY(50px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+
+/*Our Products*/
+
+.products {
+	padding-top: 100px;
+}
+
+.products .card {
+	background-color: black;
+	color: #f6d271;
+}
+
+.products .card .btn {
+	background-color: #f6d271;
+}
+
+.products .card .btn:hover {
+	background-color: #424242;
+}
+
+/*Gallery*/
+
+.gallery {
+	padding-top: 100px;
+}
+
+/*Our Services*/
+
+.service {
+	padding-top: 100px;
+}
+
+.service .card {
+	box-shadow: 0 0 10px #f6d271;
+	transition: all 0.3s ease-in-out;
+}
+
+.service .card i {
+	font-size: 60px;
+}
+
+.service .card i,
+.service .card h5,
+.service .card p {
+	color: #f6d271;
+}
+
+.service .card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 10px #fff1c9;;
+}
+
+/*About Us*/
+
+.about {
+	padding-top: 100px;
+}
+
+.about .container .row img {
+	width: 150px;
+}
+
+/*Our Partnership*/
+
+.partnership {
+	padding-top: 100px;
+}
+
+.partnership .container .card-body h5,
+.partnership .container .card-body p {
+	color: #f6d271;
+}
+
+.partnership .container .card-body {
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.partnership .container .kartu img {
+	filter: grayscale(100%);
+	transition: all 0.3s;
+}
+
+.partnership .container .kartu:hover img,
+.partnership .container .kartu:hover .card-body {
+	filter: grayscale(0);
+	opacity: 1;
+}
+
+/*Contact Us*/
+
+.contact {
+	padding-top: 100px;
+}
+
+.contact .container .card i {
+	font-size: 65px; 
+}
+
+.contact .container .card .btn {
+	background-color: #f6d271;
+}
+
+.contact .container .card {
+	background-color: black;
+	color: #f6d271;
+	transition: 0.3s ease-in-out;
+}
+
+.contact .container .card .btn:hover {
+	background-color: #424242;
+}
+
+.contact .container .card:hover {
+	transform: translateY(-10px);
+}
+
+/*Footer*/
+
+ol, ul {
+	list-style: none;
+}
+
+footer {
+	margin-top: 110px;
+}
+
+footer .container i {
+	margin-right: 5px;
+}
+
+footer .container a {
+	color: #f6d271;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
