@@ -24,7 +24,7 @@ body {
 	background-image: url(mainbg.JPG);
 	height: 620px;
 	background-size: cover;
-	background-position: 0 -80px;
+	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	position: relative;
@@ -208,6 +208,24 @@ footer .container a {
 	text-decoration: none;
 }
 
+/*Responsive*/
+/*windows*/
+@media (min-width: 1200px) {
+	.jumbotron {
+		background-position: 0 -80px;
+	}
+}
+
+
+/*Phone*/
+@media (max-width: 575.98px) {
+
+	/*Jumbotron*/
+	.jumbotron {
+		height: 70vh;
+	}
+
+}
 
 
 
